@@ -1,0 +1,80 @@
+/* 設定整個頁面內容水平置中、內寬為 30 像素：*/
+body {
+    text-align: center;
+    font-family: Microsoft JhengHei;
+}
+
+#father {
+    text-align: center;
+}
+
+#photo {
+    background-color: #b5b5b5;
+    height: 85vh;
+    width: 95vw;
+    max-width: 50vh;
+    margin-top: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#info {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#text {
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+h1:hover {
+    cursor: help;
+}
+
+#btn {
+    width: 100%;
+    height: 35px;
+    background: linear-gradient(40deg, #e8742c 0%, #e8392c 100%);
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+}
+
+span {
+    transition: 0.2s;
+}
+
+#btn {
+    transition: 0.1s;
+}
+
+#btn:hover {
+    background: linear-gradient(40deg, #bd5311 0%, #c22115 100%);
+    cursor: pointer;
+}
+
+#btn:active {
+    box-shadow: 0px 0px 1px black;
+    transform: translate(2px, 2px);
+}
+
+#btn:hover span {
+    color: white;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
