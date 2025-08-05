@@ -9,7 +9,7 @@ function click () {
             $("#photo").css("background-color", `rgb(${color}, ${color}, ${color})`);
         }, 70 * i);
     }
-    var random = Math.floor(Math.random() * 283 + 1);
+    var random = Math.floor(Math.random() * 344 + 1);
     console.log(random);
     $("#photo").css("background-image", `url(photos/${random}.jpg)`);
     setTimeout(function() {
